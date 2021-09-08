@@ -1,0 +1,208 @@
+html,body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: black;
+    
+}
+
+.logo img{
+    height: 50px; 
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+nav{
+    width: 100%;
+    overflow: auto;
+    
+}
+
+ul{
+    padding: 0;
+    margin-top: 10px;
+    list-style: none;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    width: 130px;
+    display: block;
+    padding: 10px;
+    color: seashell;
+    text-align: center;
+}
+
+.mission{
+    top: 42px;
+    text-align: center;
+    position: relative;
+    height: 700px;
+    
+}
+
+.banner{
+    background-image: url(/resources/images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.mission-caption{
+    text-align: center;
+    background-color: black;
+    position: relative;
+    top: 50%;
+    width: 100%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.tea-month{
+    padding-top: 69px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tea-month .col{
+    display: inline-block;
+}
+
+.tea-month img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+.location{
+    background-image: url(/resources/images/img-locations-background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 30px 0 0 0;
+    min-height: 500px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.location h2{
+    margin-bottom: 15px;
+}
+
+.square{
+    display: inline-block;
+    padding: 0;
+    width: 280px;
+    background-color: black;
+    margin: 15px 20px 15px 20px;
+}
+
+.square p{
+    font-size: 0.85rem;
+}
+
+.contact{
+    text-align: center;
+    height: 200px;
+}
+
+footer h5{
+    padding-left: 20px;
+}
+
+/*
+.navbar{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    line-height: 69px;
+}
+
+.logo{
+    flex: 1;
+    
+}
+
+.logo img{
+    height: 50px;
+    padding: 10px 0 0 10px;
+    
+}
+
+.navbar ul li{
+    display: inline;
+    text-decoration: underline;
+    padding-right: 10px;
+}
+
+.mission{
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    top: 69px;
+}
+
+.mission .mission-content{
+    background-image: url(/resources/images/img-mission-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}   
+
+.mission-caption{
+    position: relative;
+    text-align: center;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  h4 {
+    display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  } */
