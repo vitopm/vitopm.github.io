@@ -32,13 +32,13 @@ header{
 a{
     text-decoration: none;
     color: whitesmoke;
-    transition: background-color 200ms linear;
+    transition: background-color 150ms linear;
 }
 
 a:hover{
-    background-color: teal;
+    background-color: rgb(39, 66, 66);
+    border-bottom: 1px solid whitesmoke;
 }
-
 
 /* INTRO */
 .intro--name{
@@ -64,14 +64,14 @@ main{
 
 /* WEBSITE-LIST */
 .website-list{
+    margin-top: 3rem;
     padding: 1rem;
-    transition: background-color 200ms linear, border-bottom 200ms linear;
+    transition: background-color 150ms linear;
 }
 
 .website-list:hover{
     background-color: rgb(39, 66, 66);
     border-bottom: 3px solid whitesmoke;
-    border-radius: 5px;
 }
 .website-list p{
     padding: 1rem;
