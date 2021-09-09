@@ -40,8 +40,13 @@ header{
 }
 
 /* INTRO */
-.name{
+.intro--name{
     font-size: 3rem;
+    font-weight: 500;
+}
+
+.intro--description{
+    font-weight: normal;
 }
 
 /* MAIN */
