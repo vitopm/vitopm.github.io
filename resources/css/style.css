@@ -29,15 +29,16 @@ header{
     margin-right: 1rem;
 }
 
-.nav-bar li a{
+a{
     text-decoration: none;
     color: whitesmoke;
+    transition: background-color 200ms linear;
 }
 
-.name-logo a{
-    text-decoration: none;
-    color: whitesmoke;
+a:hover{
+    background-color: teal;
 }
+
 
 /* INTRO */
 .intro--name{
@@ -59,4 +60,19 @@ main{
 /* CONTENT */
 .content{
     padding-top: 3rem;
+}
+
+/* WEBSITE-LIST */
+.website-list{
+    padding: 1rem;
+    transition: background-color 200ms linear, border-bottom 200ms linear;
+}
+
+.website-list:hover{
+    background-color: rgb(39, 66, 66);
+    border-bottom: 3px solid whitesmoke;
+    border-radius: 5px;
+}
+.website-list p{
+    padding: 1rem;
 }
