@@ -10,7 +10,7 @@ body {
     background-color:darkslategray;
     color: whitesmoke;
     font-family: 'Roboto Mono', monospace;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* HEADER */
@@ -19,7 +19,7 @@ header{
     justify-content: space-between;
     width: 100%;
     border-bottom: 1px solid whitesmoke;
-    padding: 20px 5%;
+    padding: 15px 10%;
 }
 
 .nav-bar li{
@@ -37,7 +37,7 @@ a{
 
 a:hover{
     background-color: rgb(39, 66, 66);
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 0.2rem solid whitesmoke;
 }
 
 /* INTRO */
@@ -54,7 +54,14 @@ a:hover{
 main{
     max-width: 800px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 2rem 0;
+}
+
+@media only screen
+  and (max-width: 950px){
+    main{
+        max-width: 80%;
+    }
 }
 
 /* CONTENT */
@@ -89,4 +96,12 @@ main{
 
 .website-list p{
     padding: 1rem;
+}
+
+/* FOOTER */
+footer{
+    margin-top: 2rem;
+    border-top: 1px solid whitesmoke;
+    width: 100%;
+    padding: 15px 10%;
 }
