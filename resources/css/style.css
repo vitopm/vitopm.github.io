@@ -70,14 +70,21 @@ main{
 
 .website-list a{
     display: block;
-    margin-top: 2rem;
+    margin: 2rem;
     padding: 1rem;
     transition: background-color 50ms linear;
+}
+.website-list a .website-desc{
+    display: block;
 }
 
 .website-list a:hover{
     background-color: rgb(39, 66, 66);
-    border-bottom: 3px solid whitesmoke;
+    border-bottom: 0.2rem solid whitesmoke;
+}
+
+.website-list a:hover .website-desc{
+    margin-bottom: -0.2rem;
 }
 
 .website-list p{
