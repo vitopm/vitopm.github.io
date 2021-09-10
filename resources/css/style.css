@@ -63,13 +63,19 @@ main{
 }
 
 /* WEBSITE-LIST */
+
 .website-list{
-    margin-top: 3rem;
+    padding-top: 2rem;
+}
+
+.website-list a{
+    display: block;
+    margin-top: 2rem;
     padding: 1rem;
     transition: background-color 50ms linear;
 }
 
-.website-list:hover{
+.website-list a:hover{
     background-color: rgb(39, 66, 66);
     border-bottom: 3px solid whitesmoke;
 }
