@@ -18,12 +18,7 @@ body {
     max-width: 1170px;
 }
 
-@media only screen 
-    and (max-width: 500px){
-    body{
-        font-size: 14px;
-    }
-}
+
 
 /* HEADER */
 header{
@@ -69,12 +64,7 @@ main{
     padding: 2rem 0;
 }
 
-@media only screen
-  and (max-width: 950px){
-    main{
-        max-width: 80%;
-    }
-}
+
 
 /* CONTENT */
 .content{
@@ -94,12 +84,7 @@ main{
     transition: background-color 50ms linear;
 }
 
-@media only screen
-    and (max-width: 500px){
-        .website-list a{
-            margin: 0rem;
-        }
-}
+
 
 .website-list a .website-desc{
     display: block;
@@ -126,9 +111,3 @@ footer{
     padding: 15px 10%;
 }
 
-@media only screen 
-    and (max-width: 500px){
-        footer p{
-            text-align: center;
-        }
-    }
