@@ -32,10 +32,10 @@ header{
     padding: 15px 10%;
 }
 
-header:hover{
+/* header:hover{
     background-color: rgb(38, 79, 79);
     transition: background-color 50ms ease-out;
-}
+} */
 
 .nav-bar li{
     display: inline-block;
