@@ -56,6 +56,12 @@ a:hover{
 }
 
 /* INTRO */
+
+.intro{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.2);
+}
+
 .intro--name{
     font-size: 3rem;
     font-weight: 500;
@@ -77,7 +83,7 @@ main{
 
 /* CONTENT */
 .content{
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 /* WEBSITE-LIST */
