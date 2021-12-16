@@ -6,7 +6,9 @@
     .website-list a{
         margin: 0rem;
     }
-
+    .website-list p{
+        font-size: 0.75 rem;
+    }
     footer p{
         text-align: center;
     }
