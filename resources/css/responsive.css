@@ -3,18 +3,17 @@
     body{
         font-size: 15px;
     }
+    
     .website-list a{
         margin: 0rem;
     }
-    .website-list p{
-        font-size: 0.75 rem;
-    }
+   
     footer p{
         text-align: center;
     }
 }
 
-@media only screen
+@media only screen 
   and (max-width: 950px){
     main{
         max-width: 80%;
