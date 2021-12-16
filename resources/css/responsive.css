@@ -1,7 +1,7 @@
 @media only screen 
     and (max-width: 500px){
     body{
-        font-size: 14px;
+        font-size: 15px;
     }
     .website-list a{
         margin: 0rem;
